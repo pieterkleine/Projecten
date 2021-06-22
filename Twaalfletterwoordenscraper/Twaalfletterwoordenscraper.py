@@ -32,3 +32,5 @@ with open("wordlist.txt", "wb") as f:
     for word in wordlist:
         wordspace = str(word + " ")
         f.write(wordspace.encode('utf-8'))
+
+#TEST
